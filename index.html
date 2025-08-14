@@ -19,7 +19,7 @@
   <div id="map"></div>
 
   <script>
-    defer function initMap() {
+    async function initMap() {
       const map = new google.maps.Map(document.getElementById("map"), {
         center: { lat: 46.8182, lng: 8.2275 },
         zoom: 8,
@@ -45,8 +45,8 @@
     }
   </script>
 
-  <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAkrj1uHfPeRO_F7i5OFXhYMsQKwDuuWs&callback=initMap">
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAkrj1uHfPeRO_F7i5OFXhYMsQKwDuuWs&callback=initMap" defer>
   </script>
 </body>
 </html>
