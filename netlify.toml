@@ -4,4 +4,4 @@
   publish = "."
 
 [template.environment]
-  GOOGLE_MAPS_KEY = "FAKE"
+  GOOGLE_MAPS_KEY = ""
