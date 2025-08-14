@@ -40,59 +40,17 @@
   </style>
 </head>
 <body>
-  <div id="map"></div>
-  <div id="modal" class="modal"></div>
+  <div id="map" style="height: 100vh;"></div>
 
-  <script>
-    let map;
+  <div id="kinoModal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span onclick="closeModal()" style="float: right; cursor: pointer;">&times;</span>
+      <h2 id="modalKinoName"></h2>
+      <p id="modalKinoAdresse"></p>
+      <p id="modalKinoPreis"></p>
+    </div>
+  </div>
 
-    async function initMap() {
-      const response = await fetch('kino_daten.json');
-      const kinos = await response.json();
-
-      map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: 46.8, lng: 8.2 }, // Schweiz-Mitte
-        zoom: 8,
-        mapTypeId: "roadmap"
-      });
-
-      const modal = document.getElementById("modal");
-
-      kinos.forEach(kino => {
-        const position = {
-          lat: parseFloat(kino.latitude),
-          lng: parseFloat(kino.longitude)
-        };
-
-        const marker = new google.maps.Marker({
-          map: map,
-          position: position,
-          title: kino.name
-        });
-
-        marker.addListener("click", () => {
-          showModal(kino);
-        });
-      });
-
-      map.addListener("click", () => {
-        modal.style.display = "none";
-      });
-    }
-
-    function showModal(kino) {
-      const modal = document.getElementById("modal");
-      modal.innerHTML = `
-        <strong>${kino.name}</strong>
-        <small>${kino.strasse}, ${kino.ort}</small>
-        <div class="preis">ab CHF ${parseFloat(kino.preisProMonat).toFixed(2)} / Monat</div>
-      `;
-      modal.style.display = "block";
-      modal.style.left = "20px";
-      modal.style.top = "20px";
-    }
-  </script>
- 
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=DEIN_API_KEY&callback=initMap"></script>
+  <script src="main.js"></script> 
 </body>
 </html>
