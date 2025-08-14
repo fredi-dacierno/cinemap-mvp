@@ -1,0 +1,1122 @@
+[
+  {
+    "name": "Rialto Il Cinema 1-3",
+    "lat": 46.173653398398,
+    "lng": 8.801670648231,
+    "ort": "Locarno",
+    "adresse": "Via S. Gottardo 1, 6600 Locarno",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "TaB Atelierkino",
+    "lat": 47.2501488,
+    "lng": 8.1854623,
+    "ort": "Reinach (AG)",
+    "adresse": "Tunaustrasse 5, 5734 Reinach (AG)",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "Frame 1-6",
+    "lat": 47.3802095163985,
+    "lng": 8.52889664052309,
+    "ort": "Zürich",
+    "adresse": "Lagerstrasse 104, 8004 Zürich",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Schloss 1-2",
+    "lat": 47.3935466,
+    "lng": 8.0451719,
+    "ort": "Aarau",
+    "adresse": "Schlossplatz 3, 5000 Aarau",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Rex",
+    "lat": 46.4793126,
+    "lng": 7.552189,
+    "ort": "Adelboden",
+    "adresse": "Landstrasse 18, 3715 Adelboden",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Cosmopolis 1-3",
+    "lat": 46.3153699,
+    "lng": 6.9633892,
+    "ort": "Aigle",
+    "adresse": "Chemin de Novasalles 4, 1860 Aigle",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "Leuzinger",
+    "lat": 46.8800278,
+    "lng": 8.6417838,
+    "ort": "Altdorf (UR)",
+    "adresse": "Baumgartenstrasse 8, 6460 Altdorf (UR)",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Otello",
+    "lat": 46.1561037,
+    "lng": 8.7700085,
+    "ort": "Ascona",
+    "adresse": "Casella Postale 886, 6612 Ascona",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "Rex",
+    "lat": 46.495537,
+    "lng": 6.390298,
+    "ort": "Aubonne",
+    "adresse": "Grand-Rue 25, 1170 Aubonne",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Lux",
+    "lat": 47.1932937,
+    "lng": 8.5242559,
+    "ort": "Baar",
+    "adresse": "Dorfstr. 29b, 6340 Baar",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Sterk 1-2",
+    "lat": 47.4749234,
+    "lng": 8.3076171,
+    "ort": "Baden",
+    "adresse": "Brown Boveri Platz 1, 5400 Baden",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Trafo 1-5",
+    "lat": 47.4786686,
+    "lng": 8.3053939,
+    "ort": "Baden",
+    "adresse": "Brown Boveri Platz 1, 5400 Baden",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "kult.kino atelier 1-5",
+    "lat": 47.5535699,
+    "lng": 7.5903967,
+    "ort": "Basel",
+    "adresse": "Postfach, 4010 Basel",
+    "preis": "ab CHF 259.0 / Monat"
+  },
+  {
+    "name": "kult.kino camera 1-2",
+    "lat": 47.5610601,
+    "lng": 7.594147,
+    "ort": "Basel",
+    "adresse": "Rebgasse 1, 4058 Basel",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Forum 1-3",
+    "lat": 46.1950088,
+    "lng": 9.027993,
+    "ort": "Bellinzona",
+    "adresse": "Viale Stazione 33, 6500 Bellinzona",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Um die Ecke 1-2",
+    "lat": 46.8905034,
+    "lng": 7.4972333,
+    "ort": "Belp",
+    "adresse": "Grubenstrasse 3, 3123 Belp",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "CineABC",
+    "lat": 46.9570098,
+    "lng": 7.453018,
+    "ort": "Bern",
+    "adresse": "Moserstrasse 24, 3014 Bern",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "cineBubenberg",
+    "lat": 46.9474577,
+    "lng": 7.4370431,
+    "ort": "Bern",
+    "adresse": "Laupenstr. 2, 3008 Bern",
+    "preis": "ab CHF 308.0 / Monat"
+  },
+  {
+    "name": "cineCamera",
+    "lat": 46.9465311,
+    "lng": 7.4349416,
+    "ort": "Bern",
+    "adresse": "Seilerstr. 8, 3011 Bern",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "cineClub",
+    "lat": 46.9470978,
+    "lng": 7.4349809,
+    "ort": "Bern",
+    "adresse": "Laupenstr. 17, 3008 Bern",
+    "preis": "ab CHF 308.0 / Monat"
+  },
+  {
+    "name": "cineMovie",
+    "lat": 46.9469359,
+    "lng": 7.4352436,
+    "ort": "Bern",
+    "adresse": "Seilerstr. 4, 3011 Bern",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "blue Cinema Cinedome 1-10",
+    "lat": 46.9270677199585,
+    "lng": 7.50291095585226,
+    "ort": "Muri bei Bern",
+    "adresse": "Feldstrasse 32, 8073 Muri bei Bern",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Pathé Westside 1-11",
+    "lat": 46.9437115,
+    "lng": 7.3719775,
+    "ort": "Bern",
+    "adresse": "Riedbachstrasse 102, 3027 Bern",
+    "preis": "ab CHF 308.0 / Monat"
+  },
+  {
+    "name": "Grain d'Sel",
+    "lat": 46.2520386,
+    "lng": 7.0118728,
+    "ort": "Bex",
+    "adresse": "Av. de la Gare 4a, 1880 Bex",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Apollo",
+    "lat": 47.1366236,
+    "lng": 7.2471783,
+    "ort": "Biel/Bienne",
+    "adresse": "Zentralstr. 51 a, 2502 Biel/Bienne",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Beluga",
+    "lat": 47.1384289,
+    "lng": 7.2455767,
+    "ort": "Biel/Bienne",
+    "adresse": "Neuengasse 40, 2502 Biel/Bienne",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Lido 1-2",
+    "lat": 47.1380774,
+    "lng": 7.2451562,
+    "ort": "Biel/Bienne",
+    "adresse": "Zentralstr. 32 a, 2502 Biel/Bienne",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Rex 1-2",
+    "lat": 47.1359809,
+    "lng": 7.2447156,
+    "ort": "Biel/Bienne",
+    "adresse": "Unterer Quai 92, 2500 Biel/Bienne",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Kino Brienz",
+    "lat": 46.7537858,
+    "lng": 8.0361482,
+    "ort": "Brienz (BE)",
+    "adresse": "Tunnelgässli 14, 3855 Brienz (BE)",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "CAPITOL",
+    "lat": 46.3175557,
+    "lng": 7.9869816,
+    "ort": "Brig-Glis",
+    "adresse": "Furkastrasse 14, 3900 Brig-Glis",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "Odeon",
+    "lat": 47.481484,
+    "lng": 8.2086636,
+    "ort": "Brugg",
+    "adresse": "Bahnhofplatz 11, 5200 Brugg",
+    "preis": "ab CHF 259.0 / Monat"
+  },
+  {
+    "name": "Cinema Excelsior Brugg    ",
+    "lat": 47.4831139,
+    "lng": 8.2086427,
+    "ort": "Brugg",
+    "adresse": "Badenerstr. 3-5, 5200 Brugg",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Prado 1-3",
+    "lat": 46.6187039,
+    "lng": 7.0558293,
+    "ort": "Bulle",
+    "adresse": "Rue Lécheretta 8, 1630 Bulle",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Krone",
+    "lat": 47.0564486,
+    "lng": 7.6270594,
+    "ort": "Burgdorf",
+    "adresse": "Hohengasse 25, 3400 Burgdorf",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Rex",
+    "lat": 47.0593089,
+    "lng": 7.6232879,
+    "ort": "Burgdorf",
+    "adresse": "Bahnhofstrasse 10, 3400 Burgdorf",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Bio 1+2",
+    "lat": 46.1843871,
+    "lng": 6.1413447,
+    "ort": "Carouge (GE)",
+    "adresse": "Place du Marche, 1227 Carouge (GE)",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Apollo",
+    "lat": 46.8550794,
+    "lng": 9.5244117,
+    "ort": "Chur",
+    "adresse": "Badusstr. 10, 7000 Chur",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Kinocenter 1-4",
+    "lat": 46.8520733,
+    "lng": 9.5337916,
+    "ort": "Chur",
+    "adresse": "Theaterweg 11, 7000 Chur",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "CASINO",
+    "lat": 46.6129774,
+    "lng": 6.5085118,
+    "ort": "Cossonay",
+    "adresse": "Route de Morges 3, 1304 Cossonay",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Cinécran",
+    "lat": 46.3081354,
+    "lng": 7.4688107,
+    "ort": "Montana",
+    "adresse": "Rue centrale 37, 3963 Montana",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Pathé Dietlikon 1-10",
+    "lat": 47.4143032,
+    "lng": 8.6227955,
+    "ort": "Dietlikon",
+    "adresse": "Moorstr. 2, 8305 Dietlikon",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Cineboxx 1-2",
+    "lat": 47.1362947,
+    "lng": 8.7429189,
+    "ort": "Einsiedeln",
+    "adresse": "Kobiboden 61, 8840 Einsiedeln",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "blue Cinema Maxx 1-8",
+    "lat": 47.0693988,
+    "lng": 8.2805436,
+    "ort": "Emmen",
+    "adresse": "Seetalplatz 1, 6020 Emmen",
+    "preis": "ab CHF 259.0 / Monat"
+  },
+  {
+    "name": "Schlosskino",
+    "lat": 47.5550814,
+    "lng": 8.8971346,
+    "ort": "Frauenfeld",
+    "adresse": "Schlossmühlestr. 1, 8500 Frauenfeld",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Neues Kino",
+    "lat": 47.5293395,
+    "lng": 8.5833819,
+    "ort": "Freienstein-Teufen",
+    "adresse": "Dorfstrasse 14 D, 8427 Freienstein-Teufen",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Arena 1-10",
+    "lat": 46.8035764,
+    "lng": 7.1533695,
+    "ort": "Fribourg",
+    "adresse": "Avenue de la Gare 22, 1700 Fribourg",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "REX 1-3",
+    "lat": 46.8014067,
+    "lng": 7.1515174,
+    "ort": "Fribourg",
+    "adresse": "Bd de Pérolles 5a, 1700 Fribourg",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Monti",
+    "lat": 47.5080226,
+    "lng": 8.0203361,
+    "ort": "Frick",
+    "adresse": "Kaistenbergstr. 5, 5070 Frick",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Cinestudio 1-5",
+    "lat": 46.7663034671158,
+    "lng": 6.64293995400184,
+    "ort": "Yverdon-les-Bains",
+    "adresse": "Avenue des Découvertes 1, 1400 Yverdon-les-Bains",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "City",
+    "lat": 46.2022736,
+    "lng": 6.1565909,
+    "ort": "Genève",
+    "adresse": "Chantepoulet 23, 1207 Genève",
+    "preis": "ab CHF 357.0 / Monat"
+  },
+  {
+    "name": "Les Scala 1-3",
+    "lat": 46.2041194,
+    "lng": 6.1580818,
+    "ort": "Genève",
+    "adresse": "23, rue Eaux-Vives, 1207 Genève",
+    "preis": "ab CHF 259.0 / Monat"
+  },
+  {
+    "name": "Le Nord-Sud  ",
+    "lat": 46.21244,
+    "lng": 6.13264,
+    "ort": "Genève",
+    "adresse": "Rue de la Servette 78, 1202 Genève",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Pathé Balexert 1-13",
+    "lat": 46.2189684,
+    "lng": 6.1130188,
+    "ort": "Genève",
+    "adresse": "Av. Louis-Casai 27, 1211 Genève",
+    "preis": "ab CHF 259.0 / Monat"
+  },
+  {
+    "name": "Ciné-Theater",
+    "lat": 46.4731247,
+    "lng": 7.2873328,
+    "ort": "Saanen",
+    "adresse": "Suterstr. 6, 3780 Saanen",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Madlen",
+    "lat": 47.4132178,
+    "lng": 9.6302093,
+    "ort": "Widnau",
+    "adresse": "Auerstrasse 18, 9435 Widnau",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "Cinetreff 1-2",
+    "lat": 47.3861511,
+    "lng": 9.2799232,
+    "ort": "Herisau",
+    "adresse": "BahnhofstraÃŸe 2, 9100 Herisau",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "Skino",
+    "lat": 47.1664167068145,
+    "lng": 9.50843619607708,
+    "ort": "Schaan",
+    "adresse": "Poststrasse 27, 9494 Schaan",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Plaza",
+    "lat": 47.0997532,
+    "lng": 6.8231602,
+    "ort": "La Chaux-de-Fonds",
+    "adresse": "Rue de la Serre 68, 2300 La Chaux-de-Fonds",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "Scala",
+    "lat": 47.1012132,
+    "lng": 6.8253565,
+    "ort": "La Chaux-de-Fonds",
+    "adresse": "Rue de la Serre 52, 2300 La Chaux-de-Fonds",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "CASINO",
+    "lat": 46.6567925,
+    "lng": 6.5201685,
+    "ort": "La Sarraz",
+    "adresse": "Route d'Eclépens, 1315 La Sarraz",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Laupen",
+    "lat": 46.9033171,
+    "lng": 7.2395831,
+    "ort": "Laupen",
+    "adresse": "Grabenweg 6, 3177 Laupen",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "Cinétoile 1-6",
+    "lat": 46.5273934,
+    "lng": 6.6028787,
+    "ort": "Prilly",
+    "adresse": "Chemin du Viaduc 1, 1008 Prilly",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Pathé Flon 1-7",
+    "lat": 46.521811,
+    "lng": 6.6268038,
+    "ort": "Lausanne",
+    "adresse": "Port-Franc 16, 1003 Lausanne",
+    "preis": "ab CHF 406.0 / Monat"
+  },
+  {
+    "name": "Pathé Les Galeries 1-8",
+    "lat": 46.5180715,
+    "lng": 6.6299203,
+    "ort": "Lausanne",
+    "adresse": "Rue Petit-Chene 27, 1000 Lausanne",
+    "preis": "ab CHF 259.0 / Monat"
+  },
+  {
+    "name": "Cinerama Empire",
+    "lat": 46.1925978902263,
+    "lng": 6.14378323253744,
+    "ort": "Genève",
+    "adresse": "Rue de Carouge 72-74, 1205 Genève",
+    "preis": "ab CHF 259.0 / Monat"
+  },
+  {
+    "name": "Cinéma Le Régency",
+    "lat": 46.345173,
+    "lng": 7.015549,
+    "ort": "Leysin",
+    "adresse": "Route de la Cité 4, 1854 Leysin",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "KINOORIS",
+    "lat": 47.4842459,
+    "lng": 7.7359968,
+    "ort": "Liestal",
+    "adresse": "Kanonengasse 15, 4410 Liestal",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Sputnik",
+    "lat": 47.4840036,
+    "lng": 7.7322804,
+    "ort": "Liestal",
+    "adresse": "Poststrasse 2, 4410 Liestal",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "CINESTAR 1-7",
+    "lat": 46.024327,
+    "lng": 8.963423,
+    "ort": "Lugano",
+    "adresse": "Casella Postale 4461, 6904 Lugano",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Bourbaki 1-4",
+    "lat": 47.0570357,
+    "lng": 8.3111112,
+    "ort": "Luzern",
+    "adresse": "Löwenplatz 11, 6004 Luzern",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "blue Cinema Capitol 1-6",
+    "lat": 47.0458272,
+    "lng": 8.3099288,
+    "ort": "Luzern",
+    "adresse": "Zentralstr. 45, 6003 Luzern",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Verkehrshaus Filmtheater",
+    "lat": 47.0525287,
+    "lng": 8.3355776,
+    "ort": "Luzern",
+    "adresse": "Lidostrasse 5, 6006 Luzern",
+    "preis": "ab CHF 863.8 / Monat"
+  },
+  {
+    "name": "Apollo",
+    "lat": 47.076538,
+    "lng": 7.304183,
+    "ort": "Lyss",
+    "adresse": "Bielstr. 27, 3250 Lyss",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "CASINO",
+    "lat": 46.1032606,
+    "lng": 7.0752593,
+    "ort": "Martigny",
+    "adresse": "Av. de la Gare 17, 1920 Martigny",
+    "preis": "ab CHF 308.0 / Monat"
+  },
+  {
+    "name": "Corso",
+    "lat": 46.0972218,
+    "lng": 7.068899,
+    "ort": "Martigny",
+    "adresse": "32, av. Gd-St-Bernard, 1920 Martigny",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "Lux",
+    "lat": 46.0122713,
+    "lng": 8.9449171,
+    "ort": "Massagno",
+    "adresse": "Via Giuseppe Motta 67, 6900 Massagno",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "CINEMA",
+    "lat": 46.7281544,
+    "lng": 8.1875024,
+    "ort": "Meiringen",
+    "adresse": "Kirchgasse 7, 3860 Meiringen",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "Multisala Teatro",
+    "lat": 45.8723253,
+    "lng": 8.9863552,
+    "ort": "Mendrisio",
+    "adresse": "Via Vela 21, 6850 Mendrisio",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "Plaza",
+    "lat": 46.2515739,
+    "lng": 6.9475098,
+    "ort": "Monthey",
+    "adresse": "Place Centrale 7, 1870 Monthey",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Hollywood 1-2",
+    "lat": 46.4369725,
+    "lng": 6.9085478,
+    "ort": "Montreux",
+    "adresse": "Grand-Rue 90-92, 1820 Montreux",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Odeon 1-2",
+    "lat": 46.5078781,
+    "lng": 6.495818,
+    "ort": "Morges",
+    "adresse": "Place Dufour 4, CP, 1110 Morges",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "Le Cinoche",
+    "lat": 47.2774858,
+    "lng": 7.3705882,
+    "ort": "Moutier",
+    "adresse": "Rue du Clos 1, 2740 Moutier",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "Feuerwehrmagazin No 1",
+    "lat": 46.9277553,
+    "lng": 7.1176721,
+    "ort": "Murten",
+    "adresse": "Schulgasse 18, 3280 Murten",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Kino Wildenmann",
+    "lat": 47.2530671,
+    "lng": 8.6903021,
+    "ort": "Männedorf",
+    "adresse": "Dorfgasse 42, 8708 Männedorf",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "APOLLO 1-3",
+    "lat": 46.9928756,
+    "lng": 6.9343078,
+    "ort": "Neuchâtel",
+    "adresse": "Faubourg du Lac 21, 2000 Neuchâtel",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "Arcades",
+    "lat": 46.9923033,
+    "lng": 6.9316476,
+    "ort": "Neuchâtel",
+    "adresse": "Faubourg de l'HÃ´pital 5, 2000 Neuchâtel",
+    "preis": "ab CHF 406.0 / Monat"
+  },
+  {
+    "name": "Bio",
+    "lat": 46.9932516,
+    "lng": 6.934985,
+    "ort": "Neuchâtel",
+    "adresse": "Faubourg du Lac 27, 2000 Neuchâtel",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Rex",
+    "lat": 46.9924729,
+    "lng": 6.9329286,
+    "ort": "Neuchâtel",
+    "adresse": "Faubourg de l'HÃ´pital 16, 2000 Neuchâtel",
+    "preis": "ab CHF 308.0 / Monat"
+  },
+  {
+    "name": "STUDIO",
+    "lat": 46.9921135,
+    "lng": 6.9328425,
+    "ort": "Neuchâtel",
+    "adresse": "Faubourg du Lac 7, 2000 Neuchâtel",
+    "preis": "ab CHF 259.0 / Monat"
+  },
+  {
+    "name": "Capitole 1-2",
+    "lat": 46.3831999,
+    "lng": 6.2383504,
+    "ort": "Nyon",
+    "adresse": "5, rue Neuve, 1260 Nyon",
+    "preis": "ab CHF 308.0 / Monat"
+  },
+  {
+    "name": "youcinema 1-6",
+    "lat": 47.3114038,
+    "lng": 7.9349194,
+    "ort": "Oftringen",
+    "adresse": "Zürichstr. 52, 4665 Oftringen",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "CAPITOL",
+    "lat": 47.3517928,
+    "lng": 7.9015585,
+    "ort": "Olten",
+    "adresse": "Ringstr. 9, 4600 Olten",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "KinoKoni 1-4",
+    "lat": 47.3487251,
+    "lng": 7.9106107,
+    "ort": "Olten",
+    "adresse": "Aarauerstr. 51, 4600 Olten",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Urba 1-2",
+    "lat": 46.7248672,
+    "lng": 6.53116,
+    "ort": "Orbe",
+    "adresse": "Rue des Terreaux 36, 1350 Orbe",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "APOLLO 1-3",
+    "lat": 46.8218622,
+    "lng": 6.9396467,
+    "ort": "Payerne",
+    "adresse": "Grand-Rue 6, 1530 Payerne",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Cinemajoie    ",
+    "lat": 47.419454,
+    "lng": 7.079309,
+    "ort": "Porrentruy",
+    "adresse": "Route de Belfort 10, 2900 Porrentruy",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Kinobar Leuzinger",
+    "lat": 47.2275122,
+    "lng": 8.8193298,
+    "ort": "Rapperswil-Jona",
+    "adresse": "Obere Bahnhofstr. 46, 8640 Rapperswil-Jona",
+    "preis": "ab CHF 308.0 / Monat"
+  },
+  {
+    "name": "Schlosskino",
+    "lat": 47.2256568,
+    "lng": 8.8164065,
+    "ort": "Rapperswil-Jona",
+    "adresse": "Fischmarktstr. 4, 8640 Rapperswil-Jona",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Kiwi-Castels 1-2",
+    "lat": 47.045484,
+    "lng": 9.442135,
+    "ort": "Sargans",
+    "adresse": "Pizolstr. 3, 7320 Sargans",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Kinepolis 1-8",
+    "lat": 47.7136149,
+    "lng": 8.6563559,
+    "ort": "Schaffhausen",
+    "adresse": "Ebnatstrasse 149, 8200 Schaffhausen",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Kiwi-Scala 1-2",
+    "lat": 47.6961737,
+    "lng": 8.6383159,
+    "ort": "Schaffhausen",
+    "adresse": "Bachstr. 14, 8200 Schaffhausen",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Cinema 8, Saal 1-5",
+    "lat": 47.3141862,
+    "lng": 8.0538991,
+    "ort": "Schöftland",
+    "adresse": "Feldackerstrasse 1, 5040 Schöftland",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "CASINO",
+    "lat": 46.2919017,
+    "lng": 7.530273,
+    "ort": "Sierre",
+    "adresse": "Case postale 132, 3960 Sierre",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Bourg",
+    "lat": 46.293693,
+    "lng": 7.534361,
+    "ort": "Sierre",
+    "adresse": "Avenue Max-Huber, 3960 Sierre",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Cinesion 1-3",
+    "lat": 46.2302547,
+    "lng": 7.3608465,
+    "ort": "Sion",
+    "adresse": "10, rue des Cedres, 1950 Sion",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "Lux",
+    "lat": 46.2302547,
+    "lng": 7.3608465,
+    "ort": "Sion",
+    "adresse": "5, av. des Mayennets, 1950 Sion",
+    "preis": "ab CHF 357.0 / Monat"
+  },
+  {
+    "name": "CAPITOL",
+    "lat": 47.2045179,
+    "lng": 7.5364898,
+    "ort": "Solothurn",
+    "adresse": "Berntorstr. 18, 4500 Solothurn",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Palace",
+    "lat": 47.2079725,
+    "lng": 7.5375433,
+    "ort": "Solothurn",
+    "adresse": "Hauptgasse 57, 4500 Solothurn",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "Movieworld 1-2",
+    "lat": 46.6856057,
+    "lng": 7.6821331,
+    "ort": "Spiez",
+    "adresse": "Schlösslistrasse 1, 3700 Spiez",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "blue Cinema Cinedome 1-10",
+    "lat": 47.4155296,
+    "lng": 9.3115571,
+    "ort": "Abtwil (SG)",
+    "adresse": "Bildstr. 1, 9030 Abtwil (SG)",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "blue Cinema Scala 1-6",
+    "lat": 47.4265545,
+    "lng": 9.3764148,
+    "ort": "St. Gallen",
+    "adresse": "Bohl 1, 9000 St. Gallen",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Le Royal",
+    "lat": 47.2210537,
+    "lng": 7.2018138,
+    "ort": "Tavannes",
+    "adresse": "Case postale 27, 2710 Tavannes",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "Rätia",
+    "lat": 46.6968765,
+    "lng": 9.4389036,
+    "ort": "Thusis",
+    "adresse": "Obere Stallstr., 7430 Thusis",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "Cinématographe, Le",
+    "lat": 47.2229762,
+    "lng": 7.1016287,
+    "ort": "Tramelan",
+    "adresse": "Rue du cinéma 1, 2720 Tramelan",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "Rex",
+    "lat": 47.2248543,
+    "lng": 8.9804803,
+    "ort": "Uznach",
+    "adresse": "Eisenbahnstr. 2, 8730 Uznach",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Astor",
+    "lat": 46.4614833,
+    "lng": 6.8428283,
+    "ort": "Vevey",
+    "adresse": "Rue de Lausanne 17, 1800 Vevey",
+    "preis": "ab CHF 259.0 / Monat"
+  },
+  {
+    "name": "Rex 1-4",
+    "lat": 46.4612408,
+    "lng": 6.8411777,
+    "ort": "Vevey",
+    "adresse": "Rue Jean-Jacques Rousseau 6, 1800 Vevey",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Astoria",
+    "lat": 46.2911092,
+    "lng": 7.8841461,
+    "ort": "Visp",
+    "adresse": "Napoleonstrasse 9A, 3930 Visp",
+    "preis": "ab CHF 308.0 / Monat"
+  },
+  {
+    "name": "Passerelle 1-2",
+    "lat": 47.2970676,
+    "lng": 9.0890014,
+    "ort": "Wattwil",
+    "adresse": "Postfach 263, 9630 Wattwil",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "Liberty Cinema 1-3",
+    "lat": 47.5625796,
+    "lng": 9.125117,
+    "ort": "Weinfelden",
+    "adresse": "Amriswilerstr. 106b, 8570 Weinfelden",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Kiwi-Treff 1-4",
+    "lat": 47.1696508,
+    "lng": 9.4618407,
+    "ort": "Buchs (SG)",
+    "adresse": "Grabenstr. 1, 9470 Buchs (SG)",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "Cinewil 1-4",
+    "lat": 47.463324,
+    "lng": 9.0418725,
+    "ort": "Wil (SG)",
+    "adresse": "Bahnhofplatz 7, 9500 Wil (SG)",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "Kiwi-Center 1-11",
+    "lat": 47.4987727,
+    "lng": 8.7258845,
+    "ort": "Winterthur",
+    "adresse": "Neumarkt 11-13, 8401 Winterthur",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Kiwi-Loge 1-3",
+    "lat": 47.4986123,
+    "lng": 8.7314023,
+    "ort": "Winterthur",
+    "adresse": "Oberer Graben 6, 8401 Winterthur",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "blue Cinema Maxx 1-6",
+    "lat": 47.498469,
+    "lng": 8.721132,
+    "ort": "Winterthur",
+    "adresse": "Zürcherstr. 1 & 3, 8400 Winterthur",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Chinoworb  ",
+    "lat": 46.9283492,
+    "lng": 7.5622308,
+    "ort": "Worb",
+    "adresse": "Postfach 725, 3076 Worb",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "Bel-Air",
+    "lat": 46.78059,
+    "lng": 6.636951,
+    "ort": "Yverdon-les-Bains",
+    "adresse": "6, place Bel-Air, 1400 Yverdon-les-Bains",
+    "preis": "ab CHF 308.0 / Monat"
+  },
+  {
+    "name": "Vernissage",
+    "lat": 46.0219101,
+    "lng": 7.7478295,
+    "ort": "Zermatt",
+    "adresse": "Hofmattstr. 4, 3920 Zermatt",
+    "preis": "ab CHF 79.8 / Monat"
+  },
+  {
+    "name": "Canva 1-3",
+    "lat": 47.205257,
+    "lng": 7.5475445,
+    "ort": "Zuchwil",
+    "adresse": "Luzernstrasse 7, 4528 Zuchwil",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Gotthard",
+    "lat": 47.1724427,
+    "lng": 8.5150392,
+    "ort": "Zug",
+    "adresse": "Gotthardstrasse 18, 6300 Zug",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Seehof 1-2",
+    "lat": 47.1692276,
+    "lng": 8.5149825,
+    "ort": "Zug",
+    "adresse": "Schmidgasse 8, 6300 Zug",
+    "preis": "ab CHF 259.0 / Monat"
+  },
+  {
+    "name": "blue Cinema Abaton 1-12",
+    "lat": 47.3892403,
+    "lng": 8.5215247,
+    "ort": "Zürich",
+    "adresse": "Heinrichstr. 269, 8005 Zürich",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "Arena 1-12+14-19",
+    "lat": 47.358482,
+    "lng": 8.5226285,
+    "ort": "Zürich",
+    "adresse": "Kalanderplatz 8, 8045 Zürich",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "Arthouse Le Paris",
+    "lat": 47.3664434,
+    "lng": 8.5473927,
+    "ort": "Zürich",
+    "adresse": "Gottfried-Keller-Str. 7, 8001 Zürich",
+    "preis": "ab CHF 863.8 / Monat"
+  },
+  {
+    "name": "Arthouse Movie 1-2",
+    "lat": 47.3707036,
+    "lng": 8.5437007,
+    "ort": "Zürich",
+    "adresse": "Nägelihof 4, 8001 Zürich",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "Arthouse Piccadilly 1-2",
+    "lat": 47.3659318,
+    "lng": 8.5489566,
+    "ort": "Zürich",
+    "adresse": "Mühlebachstr. 2, 8008 Zürich",
+    "preis": "ab CHF 204.4 / Monat"
+  },
+  {
+    "name": "blue Cinema Capitol 1-6",
+    "lat": 47.3778703,
+    "lng": 8.5440894,
+    "ort": "Zürich",
+    "adresse": "Weinbergstr. 9, 8001 Zürich",
+    "preis": "ab CHF 120.39999999999999 / Monat"
+  },
+  {
+    "name": "blue Cinema Corso 1-4",
+    "lat": 47.366387,
+    "lng": 8.546733,
+    "ort": "Zürich",
+    "adresse": "Theaterstr. 10, 8001 Zürich",
+    "preis": "ab CHF 259.0 / Monat"
+  },
+  {
+    "name": "blue Cinema Metropol 1-2",
+    "lat": 47.3737473,
+    "lng": 8.5307187,
+    "ort": "Zürich",
+    "adresse": "Badenerstr. 16, 8004 Zürich",
+    "preis": "ab CHF 162.4 / Monat"
+  },
+  {
+    "name": "RiffRaff 1-4",
+    "lat": 47.3826185,
+    "lng": 8.5293411,
+    "ort": "Zürich",
+    "adresse": "Neugasse 57-63, 8005 Zürich",
+    "preis": "ab CHF 162.4 / Monat"
+  }
+]
