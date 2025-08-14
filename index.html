@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>cinemap MVP</title>
+  <title>cinemap.ch</title>
   <style>
     html, body {
       height: 100%;
       margin: 0;
-      padding: 0;
     }
     #map {
       height: 100%;
@@ -20,19 +19,14 @@
   <div id="map"></div>
 
   <script>
-    function initMap() {
-      const center = { lat: 46.8182, lng: 8.2275 }; // Schweiz-Zentrum
+    async function initMap() {
       const map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 46.8182, lng: 8.2275 },
         zoom: 8,
-        center: center,
       });
 
-      // Beispiel-Marker
-      const kinos = [
-        { name: "Kino Zürich", lat: 47.3769, lng: 8.5417, preis: "ab CHF 150 / Monat" },
-        { name: "Kino Bern", lat: 46.9481, lng: 7.4474, preis: "ab CHF 120 / Monat" },
-        { name: "Kino St. Gallen", lat: 47.4239, lng: 9.3748, preis: "ab CHF 130 / Monat" }
-      ];
+      const response = await fetch('kino_daten.json');
+      const kinos = await response.json();
 
       kinos.forEach(kino => {
         const marker = new google.maps.Marker({
@@ -42,7 +36,7 @@
         });
 
         const info = new google.maps.InfoWindow({
-          content: `<strong>${kino.name}</strong><br>${kino.preis}`
+          content: `<strong>${kino.name}</strong><br>${kino.adresse}<br>${kino.preis}`
         });
 
         marker.addListener("mouseover", () => info.open(map, marker));
