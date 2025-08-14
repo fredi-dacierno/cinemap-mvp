@@ -1,0 +1,7 @@
+# netlify.toml
+[build]
+  command = ""
+  publish = "."
+
+[template.environment]
+  GOOGLE_MAPS_KEY = "FAKE"
