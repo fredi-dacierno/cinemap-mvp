@@ -20,33 +20,48 @@
 
   <script>
     async function initMap() {
-      const map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: 46.8182, lng: 8.2275 },
-        zoom: 8,
-      });
-
       const response = await fetch('kino_daten.json');
-      const kinos = await response.json();
-
-      kinos.forEach(kino => {
-        const marker = new google.maps.Marker({
+      const kinoDaten = await response.json();
+    
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 8,
+        center: { lat: 46.8, lng: 8.2 }, // Schweiz-Mitte
+      });
+    
+      kinoDaten.forEach(kino => {
+        const marker = new google.maps.marker.AdvancedMarkerElement({
           position: { lat: kino.lat, lng: kino.lng },
           map: map,
-          title: kino.name
+          title: `${kino.name} – ab CHF ${kino.preis}`
         });
-
-        const info = new google.maps.InfoWindow({
-          content: `<strong>${kino.name}</strong><br>${kino.adresse}<br>${kino.preis}`
+    
+        marker.addListener("click", () => {
+          showModal(kino);
         });
-
-        marker.addListener("mouseover", () => info.open(map, marker));
-        marker.addListener("mouseout", () => info.close());
       });
     }
+
+    function showModal(kino) {
+      const modal = document.getElementById("kinoModal");
+      modal.querySelector(".modal-title").textContent = kino.name;
+      modal.querySelector(".modal-body").innerHTML = `
+        <p><strong>Adresse:</strong> ${kino.strasse}, ${kino.ort}</p>
+        <p><strong>Preis/Monat:</strong> CHF ${kino.preis}</p>
+        <p><strong>Anzahl Säle:</strong> ${kino.saele}</p>
+      `;
+      modal.style.display = "block";
+    }    
   </script>
 
   <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAkrj1uHfPeRO_F7i5OFXhYMsQKwDuuWs&callback=initMap" defer>
   </script>
+
+  <div id="kinoModal" style="display:none; position:fixed; top:20%; left:50%; transform:translateX(-50%); background:#fff; padding:1rem; box-shadow:0 0 10px rgba(0,0,0,0.5); z-index:999;">
+    <h3 class="modal-title"></h3>
+    <div class="modal-body"></div>
+    <button onclick="document.getElementById('kinoModal').style.display='none'">Schliessen</button>
+  </div>
+  
 </body>
 </html>
