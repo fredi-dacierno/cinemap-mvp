@@ -1,40 +1,72 @@
 <!DOCTYPE html>
-<html lang="de">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>cinemap.ch</title>
+  <title>Cinemap CH</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    html, body {
+    html, body, #map {
       height: 100%;
       margin: 0;
+      padding: 0;
+      font-family: sans-serif;
     }
-    #map {
-      height: 100%;
-      width: 100%;
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      padding: 20px;
+      background: white;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      top: 20%;
+      left: 50%;
+      transform: translateX(-50%);
+      max-width: 90%;
+    }
+    .modal h2 {
+      margin-top: 0;
+    }
+    .modal-close {
+      float: right;
+      cursor: pointer;
+      font-size: 20px;
     }
   </style>
 </head>
 <body>
   <div id="map"></div>
 
+  <div class="modal" id="kinoModal">
+    <span class="modal-close" onclick="closeModal()">&times;</span>
+    <h2 id="kinoName"></h2>
+    <p><strong>Adresse:</strong> <span id="kinoAdresse"></span></p>
+    <p><strong>Ort:</strong> <span id="kinoOrt"></span></p>
+    <p><strong>Anzahl Säle:</strong> <span id="kinoSaele"></span></p>
+    <p><strong>Preis pro Monat:</strong> <span id="kinoPreis"></span></p>
+  </div>
+
   <script>
+    let map;
+
     async function initMap() {
-      const response = await fetch('kino_daten.json');
-      const kinoDaten = await response.json();
-    
-      const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 8,
-        center: { lat: 46.8, lng: 8.2 }, // Schweiz-Mitte
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 46.8, lng: 8.2 },
+        zoom: 8
       });
-    
+
+      const response = await fetch("kino_daten.json");
+      const kinoDaten = await response.json();
+
       kinoDaten.forEach(kino => {
-        const marker = new google.maps.marker.AdvancedMarkerElement({
-          position: { lat: kino.lat, lng: kino.lng },
+        const position = { lat: kino.lat, lng: kino.lng };
+
+        const marker = new google.maps.Marker({
           map: map,
+          position: position,
           title: `${kino.name} – ab CHF ${kino.preis}`
         });
-    
+
         marker.addListener("click", () => {
           showModal(kino);
         });
@@ -42,26 +74,20 @@
     }
 
     function showModal(kino) {
-      const modal = document.getElementById("kinoModal");
-      modal.querySelector(".modal-title").textContent = kino.name;
-      modal.querySelector(".modal-body").innerHTML = `
-        <p><strong>Adresse:</strong> ${kino.strasse}, ${kino.ort}</p>
-        <p><strong>Preis/Monat:</strong> CHF ${kino.preis}</p>
-        <p><strong>Anzahl Säle:</strong> ${kino.saele}</p>
-      `;
-      modal.style.display = "block";
-    }    
+      document.getElementById("kinoName").textContent = kino.name;
+      document.getElementById("kinoAdresse").textContent = kino.strasse;
+      document.getElementById("kinoOrt").textContent = kino.ort;
+      document.getElementById("kinoSaele").textContent = kino.saele;
+      document.getElementById("kinoPreis").textContent = `CHF ${kino.preis} / Monat`;
+
+      document.getElementById("kinoModal").style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById("kinoModal").style.display = "none";
+    }
   </script>
 
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAkrj1uHfPeRO_F7i5OFXhYMsQKwDuuWs&callback=initMap" defer>
-  </script>
-
-  <div id="kinoModal" style="display:none; position:fixed; top:20%; left:50%; transform:translateX(-50%); background:#fff; padding:1rem; box-shadow:0 0 10px rgba(0,0,0,0.5); z-index:999;">
-    <h3 class="modal-title"></h3>
-    <div class="modal-body"></div>
-    <button onclick="document.getElementById('kinoModal').style.display='none'">Schliessen</button>
-  </div>
-  
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=DEIN_API_KEY&callback=initMap"></script>
 </body>
 </html>
